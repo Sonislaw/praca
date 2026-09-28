@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
 import { RouterLink, RouterView } from 'vue-router'
 import { Download, Share2, X } from '@lucide/vue'
+import CookieConsentBanner from '@/components/CookieConsentBanner.vue'
 
 useHead({ htmlAttrs: { lang: 'pl' } })
 
@@ -111,5 +112,6 @@ onBeforeUnmount(() => {
         <p class="mx-auto max-w-7xl px-5 py-4 text-xs text-[#78857c] lg:px-8">© {{ new Date().getFullYear() }} PracaNaRękę</p>
       </div>
     </footer>
+    <CookieConsentBanner />
   </div>
 </template>

@@ -40,7 +40,7 @@ usePageSeo('privacy', {
       <section class="py-7">
         <h2 class="text-xl font-bold">3. Dane techniczne i cele ich wykorzystania</h2>
         <p class="mt-3 text-sm leading-7 text-[#66736b]">Podczas wyświetlania strony dostawca hostingu i infrastruktury może przetwarzać typowe dane techniczne połączenia, na przykład adres IP, datę i godzinę żądania, adres odwiedzanej strony oraz informacje o przeglądarce. Dane te mogą być wykorzystywane do dostarczenia strony, zapewnienia bezpieczeństwa i diagnozowania błędów.</p>
-        <p class="mt-3 text-sm leading-7 text-[#66736b]">Serwis nie korzysta obecnie z narzędzi analitycznych ani reklamowych i nie tworzy profili użytkowników.</p>
+        <p class="mt-3 text-sm leading-7 text-[#66736b]">Za zgodą użytkownika serwis korzysta z Google Analytics 4 do zbiorczej analizy ruchu i działania strony. Skrypt analityczny nie jest ładowany przed akceptacją w pasku zgody.</p>
       </section>
 
       <section class="py-7">
@@ -55,13 +55,13 @@ usePageSeo('privacy', {
 
       <section class="py-7">
         <h2 class="text-xl font-bold">6. Pliki cookie i zewnętrzne zasoby</h2>
-        <p class="mt-3 text-sm leading-7 text-[#66736b]">Serwis nie ustawia własnych plików cookie do analityki ani reklamy. Dostawcy hostingu lub infrastruktury mogą stosować pliki techniczne potrzebne do bezpieczeństwa i prawidłowego dostarczania strony.</p>
+        <p class="mt-3 text-sm leading-7 text-[#66736b]">Serwis prosi o zgodę przed użyciem plików cookie analitycznych Google Analytics. Dopiero po akceptacji ładowany jest skrypt Google Analytics, który może używać plików cookie i przetwarzać dane techniczne oraz informacje o korzystaniu ze strony. Odrzucenie zgody blokuje ładowanie tego skryptu. Wybór jest zapisywany lokalnie w przeglądarce; możesz go zmienić, usuwając dane witryny w jej ustawieniach.</p>
         <p class="mt-3 text-sm leading-7 text-[#66736b]">Strona pobiera kroje pisma Google Fonts. W związku z takim żądaniem przeglądarka łączy się z serwerami Google; Google może przetwarzać dane żądania zgodnie ze swoją <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" class="text-[#17613f] underline underline-offset-4">polityką prywatności</a>. Szczegóły działania usługi opisuje <a href="https://developers.google.com/fonts/docs/technical_considerations" target="_blank" rel="noreferrer" class="text-[#17613f] underline underline-offset-4">dokumentacja Google Fonts</a>.</p>
       </section>
 
       <section class="py-7">
         <h2 class="text-xl font-bold">7. Odbiorcy danych i okres przechowywania</h2>
-        <p class="mt-3 text-sm leading-7 text-[#66736b]">Odbiorcami danych technicznych mogą być dostawcy hostingu i infrastruktury, a w przypadku pobierania fontów — Google. Dane są przechowywane przez okres niezbędny do realizacji wskazanych celów, zgodnie z ustawieniami dostawców i obowiązującymi przepisami. Administrator nie sprzedaje danych użytkowników.</p>
+        <p class="mt-3 text-sm leading-7 text-[#66736b]">Odbiorcami danych technicznych mogą być dostawcy hostingu i infrastruktury, a po wyrażeniu zgody na analitykę — Google. Dane są przechowywane przez okres niezbędny do realizacji wskazanych celów, zgodnie z ustawieniami dostawców i obowiązującymi przepisami. Administrator nie sprzedaje danych użytkowników.</p>
       </section>
 
       <section class="py-7">
