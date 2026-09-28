@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
-})
-
-export default router
+export const routes: RouteRecordRaw[] = [
+  { path: '/', name: 'home', component: () => import('@/views/HomeView.vue') },
+  { path: '/ile-na-reke-uop', name: 'uop', component: () => import('@/views/UopCalculatorView.vue') },
+  { path: '/ile-na-reke-b2b', name: 'b2b', component: () => import('@/views/B2bCalculatorView.vue') },
+  { path: '/b2b-vs-uop', name: 'comparison', component: () => import('@/views/ComparisonView.vue') },
+]

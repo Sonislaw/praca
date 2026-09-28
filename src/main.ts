@@ -1,12 +1,9 @@
-import { createApp } from 'vue'
+import './style.css'
 import { createPinia } from 'pinia'
-
+import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
-import router from './router'
+import { routes } from './router'
 
-const app = createApp(App)
-
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+export const createApp = ViteSSG(App, { routes, scrollBehavior: () => ({ top: 0 }) }, ({ app }) => {
+  app.use(createPinia())
+})
