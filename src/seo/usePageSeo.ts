@@ -8,6 +8,7 @@ const pages = {
   uop: { path: '/ile-na-reke-uop', title: 'Kalkulator wynagrodzenia UoP — ile na rękę z brutto? | PracaNaRękę', description: 'Oblicz wynagrodzenie netto z umowy o pracę. Sprawdź składki ZUS, składkę zdrowotną, zaliczkę PIT, koszt pracodawcy i roczne wynagrodzenie.', image: '/og/praca.svg' },
   b2b: { path: '/ile-na-reke-b2b', title: 'Kalkulator B2B — ile zostaje na rękę z faktury? | PracaNaRękę', description: 'Oblicz dochód na rękę z faktury B2B. Porównaj skalę podatkową, podatek liniowy i ryczałt oraz uwzględnij koszty i składki ZUS.', image: '/og/praca.svg' },
   comparison: { path: '/b2b-vs-uop', title: 'B2B czy UoP — kalkulator porównania wynagrodzeń | PracaNaRękę', description: 'Porównaj wynagrodzenie netto na umowie o pracę i B2B. Zobacz miesięczną i roczną różnicę po podatkach, kosztach i składkach.', image: '/og/praca.svg' },
+  privacy: { path: '/polityka-prywatnosci', title: 'Polityka prywatności | PracaNaRękę', description: 'Informacje o danych technicznych, kalkulatorach, PWA, plikach cookie i zasadach prywatności w serwisie PracaNaRękę.', image: '/og/praca.svg' },
 } as const
 
 export type SeoPageKey = keyof typeof pages

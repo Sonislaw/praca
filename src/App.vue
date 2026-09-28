@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
     <header class="border-b border-[#e1e7e2] bg-white">
       <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
         <RouterLink to="/" class="flex items-center gap-3 font-bold tracking-tight">
-          <span class="grid size-10 place-items-center rounded-xl bg-[#174b39] text-lg text-white">P</span>
+          <img src="/favicon.svg" alt="" class="size-10 rounded-xl" />
           <span>Praca<span class="text-[#25815c]">NaRękę</span></span>
         </RouterLink>
         <div class="relative">
@@ -96,9 +96,19 @@ onBeforeUnmount(() => {
     </header>
     <main><RouterView /></main>
     <footer class="mt-16 border-t border-[#e1e7e2] bg-white">
-      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-8 text-sm text-[#66736b] sm:flex-row sm:items-center sm:justify-between">
-        <span>PracaNaRękę — bezpłatne kalkulatory wynagrodzeń</span>
-        <span>Wyniki mają charakter szacunkowy i nie stanowią porady podatkowej.</span>
+      <div class="mx-auto grid max-w-7xl gap-6 px-5 py-8 sm:grid-cols-2 sm:items-end lg:px-8">
+        <div>
+          <RouterLink to="/" class="font-bold tracking-tight">Praca<span class="text-[#25815c]">NaRękę</span></RouterLink>
+          <p class="mt-2 max-w-lg text-sm leading-6 text-[#66736b]">Bezpłatne kalkulatory wynagrodzeń, które pomagają zrozumieć różnicę między kwotą brutto a tym, co trafia na konto.</p>
+          <p class="mt-2 text-xs leading-5 text-[#78857c]">Wyniki mają charakter szacunkowy i nie stanowią porady podatkowej.</p>
+        </div>
+        <nav aria-label="Linki w stopce" class="flex flex-wrap gap-x-6 gap-y-3 text-sm sm:justify-end">
+          <a href="mailto:kontakt@zgrana.pl" class="text-[#66736b] hover:text-[#19251f]">Kontakt</a>
+          <RouterLink to="/polityka-prywatnosci" class="text-[#66736b] hover:text-[#19251f]">Polityka prywatności</RouterLink>
+        </nav>
+      </div>
+      <div class="border-t border-[#e1e7e2]">
+        <p class="mx-auto max-w-7xl px-5 py-4 text-xs text-[#78857c] lg:px-8">© {{ new Date().getFullYear() }} PracaNaRękę</p>
       </div>
     </footer>
   </div>

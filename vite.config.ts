@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 import type { ViteSSGOptions } from 'vite-ssg'
 import { VitePWA } from 'vite-plugin-pwa'
 
-const sitePaths = ['/', '/ile-na-reke-uop', '/ile-na-reke-b2b', '/b2b-vs-uop']
+const sitePaths = ['/', '/ile-na-reke-uop', '/ile-na-reke-b2b', '/b2b-vs-uop', '/polityka-prywatnosci']
 
 // https://vite.dev/config/
 export default defineConfig({
